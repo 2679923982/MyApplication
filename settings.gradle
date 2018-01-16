@@ -1,0 +1,2 @@
+include ':app', ':app1', ':myapplication2', ':Music-master', ':myapplication3'
+include ':smart_breakpointDownload'

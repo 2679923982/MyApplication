@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/recycle_R"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/mainBackground">>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <ImageView
+        android:src="@drawable/musicfile"
+        android:layout_below="@+id/seekBar"
+        android:id="@+id/imageTu"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:id="@+id/musicinfo"
+        android:layout_below="@id/seekBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:id="@+id/musicinfo01"
+        android:layout_below="@id/musicinfo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/paly_accelerometer"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       />
+
+    <ImageView
+        android:id="@+id/play_mode"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/play_pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/play"
+        android:layout_marginTop="50dp"
+     android:layout_marginLeft="480dp"/>
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/next"
+        android:layout_gravity="right"
+        android:layout_below="@+id/play_mode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+</RelativeLayout>

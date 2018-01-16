@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#F44336</color>
+
+    <color name="colorPrimaryDark">#F44336</color>
+
+    <color name="colorAccent">#F44336</color>
+
+    <color name="nightColorPrimary">#383838</color>
+
+    <color name="nightColorPrimaryDark">#383838</color>
+
+     <color name="nightColorAccent">#000000</color>
+    <color name="background">#FFE4C4</color>
+    <color name="toolbarbackground">#FFDEAD</color>
+    <color name="color_text_selected">#ffffff</color>
+    <color name="color_text_normal">#000000</color>
+</resources>

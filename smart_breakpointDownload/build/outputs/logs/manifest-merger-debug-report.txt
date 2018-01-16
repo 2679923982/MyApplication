@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:3:7-44
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+application
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:6:5-15:15
+	android:label
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:6:48-80
+	android:icon
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:6:18-47
+activity#com.smart.activoty.download.SmartDownloadActivity
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:7:9-13:20
+	android:label
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:8:19-51
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:7:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:11:27-74
+uses-sdk
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+	android:targetSdkVersion
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:1-39
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:16:11-36
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+		INJECTED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:18:1-62
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:18:18-60
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:21:1-79
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:21:18-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:23:1-76
+	android:name
+		ADDED from D:\Android6.0gx\MyApplication13\MyApplication\smart_breakpointDownload\src\main\AndroidManifest.xml:23:18-74

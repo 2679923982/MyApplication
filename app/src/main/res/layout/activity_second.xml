@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mainBackground">
+
+<RelativeLayout
+
+android:id="@+id/recycle"
+android:layout_width="match_parent"
+android:layout_height="80dp"
+    android:background="?attr/colorAccent">
+<ImageButton
+    android:id="@+id/gongneng"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/wodehuodong"/>
+
+<ImageButton
+    android:id="@+id/sousuo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/fenlei2"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"/>
+<RadioGroup
+
+    android:id="@+id/group"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        android:checked="true"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:textColor="@drawable/selector"
+        android:button="@null"
+        android:text="我的音乐" />
+    <RadioButton
+        android:textColor="@drawable/selector"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:id="@+id/news"
+        android:button="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线音乐"/>
+</RadioGroup>
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="10dp"
+        android:background="?attr/mainBackground"
+        android:id="@+id/pager"
+        android:layout_below="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/left"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="?attr/mainBackground" >
+        <ListView
+            android:background="?attr/colorPrimaryDark"
+            android:id="@+id/left_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

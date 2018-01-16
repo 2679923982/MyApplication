@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_music">MusicPlayer</string>
+    <string name="hello"><u>phone:0123456</u></string>
+    <string name="app_name1">MyLink</string>
+    <string name="music_title">title</string>
+    <string name="music_singer">singer</string>
+    <string name="music_size">size</string>
+    <string name="music_duration">duration</string>
+    <string name="music_cancle">close</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
